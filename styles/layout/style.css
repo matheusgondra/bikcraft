@@ -1,0 +1,69 @@
+.l-body {
+	margin-top: 60px;
+	gap: 60px;
+	justify-items: center;
+}
+
+.l-header {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.l-nav {
+	margin-top: 60px;
+}
+
+.l-nav-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: space-between;
+}
+
+.l-main {
+	grid-template-columns: 1fr 1fr;
+	max-width: 1000px;
+	text-align: right;
+}
+
+.l-bar {
+	position: absolute;
+	top: 30px;
+	right: -30px;
+}
+
+.l-grid {
+	display: grid;
+}
+
+.l-card {
+	padding: 40px;
+	position: relative;
+}
+
+.l-card-1 {
+	align-content: center;
+	justify-items: end;
+	gap: 20px;
+}
+
+.l-subtitle {
+	align-self: center;
+}
+
+.l-benefits {
+	grid-template-columns: auto 1fr;
+	gap: 10px 20px;
+	padding: 20px;
+	text-align: left;
+}
+
+.l-benefits-description {
+	grid-column: 2 / 3;
+}
+
+.l-footer {
+	padding: 40px;
+	width: 100%;
+	text-align: center;
+}
